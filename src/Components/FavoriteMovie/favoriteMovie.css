@@ -1,0 +1,74 @@
+.favorite{
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px;
+    align-items: center; */
+}
+.favorite h3{
+    font-size: 20px;
+    text-align: center;
+}
+.new-list-input{
+    padding: 10px;
+    width: 250px;
+    border-color: darkmagenta;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.favorite input{
+    padding: 10px;
+    width: 150px;
+    border-color: darkmagenta;
+    border-radius: 5px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+}
+
+.save{
+    padding: 10px;
+    width: 100px;
+    background-color: darkmagenta;
+    color: white;
+    border: none;
+    margin-left: 20px;
+}
+.remove{
+    border-radius: 10px;
+    border: none;
+    background-color: darkmagenta;
+    color: white;
+   
+}
+.no-choosen{
+    text-align: center;
+}
+
+
+.favorite-item{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -40px;
+    /* gap: 10px; */
+}
+.favorite-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.favorite-item span{
+    font-size: 15px;
+}
+.link-btn{
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: darkmagenta;
+    color: white;
+}

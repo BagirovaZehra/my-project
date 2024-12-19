@@ -1,0 +1,17 @@
+.search input{
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border-color: darkmagenta;
+}
+.search button{
+    padding:10px ;
+    width: 100px;
+    background-color: darkmagenta;
+    color: white;
+    border: none;
+}
+.search{
+    display: flex;
+    gap: 10px;
+}
